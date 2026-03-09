@@ -9,15 +9,17 @@ int main() {
 
    if(numero > 0) {
     printf("Numero ALFA\n");
-   }
-
-   if(numero < 0) {
+   } else if (numero < 0) {
     printf("Numero BETA\n");
+   } else{
+    printf("Numero NEUTRO\n");
    }
 
-   if(numero % 2 == 0){
+   if(numero % 2 == 0){\
    printf("Numero PAR\n");
+   } else {
+    printf("Numero IMPAR\n");
    }
-        
+
     return 0;
 }
